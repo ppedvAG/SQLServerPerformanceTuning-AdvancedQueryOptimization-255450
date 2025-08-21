@@ -1,0 +1,277 @@
+﻿<deadlock>
+	<victim-list>
+		<victimProcess id="process193ee749848"/>
+	</victim-list>
+	<process-list>
+		<process id="process193ee749848" taskpriority="0" logused="264"
+			waitresource="KEY: 5:72057594046054400 (a02b313b17c5)"
+			waittime="4903" ownerId="569148" transactionname="user_transaction"
+			lasttranstarted="2025-08-14T12:46:52.720" XDES="0x193f1080470"
+			lockMode="U" schedulerid="7" kpid="5904" status="suspended"
+			spid="56" sbid="0" ecid="0" priority="0" trancount="2"
+			lastbatchstarted="2025-08-14T12:46:58.630" lastbatchcompleted="2025-08-14T12:46:52.720"
+			lastattention="1900-01-01T00:00:00.720"
+			clientapp="Microsoft SQL Server Management Studio - Abfrage"
+			hostname="BIGBEN" hostpid="2896" loginname="BIGBEN\Administrator"
+			isolationlevel="read committed (2)" xactid="569148" currentdb="5"
+			currentdbname="northwind" lockTimeout="4294967295" clientoption1="671090784"
+			clientoption2="390200">
+			<stackFrames>
+				<frame id="00" address="0x7FFA80D83144" pdb="ntdll.pdb" age="1"
+			guid="50957EAA-6C4F-604C-049D-9B968F8FA965" module="ntdll"
+			rva="0xA3144" />
+				<frame id="01" address="0x7FFA7E4A7E89"
+			pdb="kernelbase.pdb" age="1" guid="68EE6591-28C3-1CF6-48FA-175AC1A8601A"
+			module="kernelbase" rva="0xC7E89" />
+				<frame id="02" address="0x7FFA63799A37"
+			pdb="SqlDK.pdb" age="2" guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB"
+			module="SqlDK" rva="0x9A37" />
+				<frame id="03" address="0x7FFA63799951"
+			pdb="SqlDK.pdb" age="2" guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB"
+			module="SqlDK" rva="0x9951" />
+				<frame id="04" address="0x7FFA63791CF7"
+			pdb="SqlDK.pdb" age="2" guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB"
+			module="SqlDK" rva="0x1CF7" />
+				<frame id="05" address="0x7FFA63792D17"
+			pdb="SqlDK.pdb" age="2" guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB"
+			module="SqlDK" rva="0x2D17" />
+				<frame id="06" address="0x7FFA63E3AF55"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0xAAF55" />
+				<frame id="07" address="0x7FFA63E3AD54"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0xAAD54" />
+				<frame id="08" address="0x7FFA63DA0ED4"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x10ED4" />
+				<frame id="09" address="0x7FFA63DA9CB8"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x19CB8" />
+				<frame id="10" address="0x7FFA63DAF068"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x1F068" />
+				<frame id="11" address="0x7FFA63DAA91A"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x1A91A" />
+				<frame id="12" address="0x7FFA63DAA5FF"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x1A5FF" />
+				<frame id="13" address="0x7FFA63DAA6E3"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x1A6E3" />
+				<frame id="14" address="0x7FFA63DBEC59"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2EC59" />
+				<frame id="15" address="0x7FFA69D319F7"
+			pdb="SqlTsEs.pdb" age="2" guid="BE306769-26D5-47E7-A951-47BA8B31D837"
+			module="SqlTsEs" rva="0x19F7" />
+				<frame id="16" address="0x7FFA63DBD1C3"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2D1C3" />
+				<frame id="17" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="18" address="0x7FFA63DEF815"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x5F815" />
+				<frame id="19" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="20" address="0x7FFA63DEF62B"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x5F62B" />
+				<frame id="21" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="22" address="0x7FFA63E24688"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x94688" />
+				<frame id="23" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="24" address="0x7FFA63E24688"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x94688" />
+				<frame id="25" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="26" address="0x7FFA63E28AF3"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x98AF3" />
+				<frame id="27" address="0x7FFA63DBB579"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x2B579" />
+				<frame id="28" address="0x7FFA63DC52BF"
+			pdb="sqlmin.pdb" age="2" guid="B269EC3D-9707-48C3-9F5A-959CACE5C766"
+			module="sqlmin" rva="0x352BF" />
+				<frame id="29" address="0x7FFA66EEB0B8"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x1B0B8" />
+				<frame id="30" address="0x7FFA66EF9F2C"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x29F2C" />
+				<frame id="31" address="0x7FFA66EF9C8A"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x29C8A" />
+				<frame id="32" address="0x7FFA66EE4BFF"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x14BFF" />
+				<frame id="33" address="0x7FFA6722CC34"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x35CC34" />
+				<frame id="34" address="0x7FFA6722C5E7"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x35C5E7" />
+				<frame id="35" address="0x7FFA66EE4921"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x14921" />
+				<frame id="36" address="0x7FFA6722E5E5"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x35E5E5" />
+				<frame id="37" address="0x7FFA66EE4BFF"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x14BFF" />
+				<frame id="38" address="0x7FFA66EE50FC"
+			pdb="sqllang.pdb" age="2" guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4"
+			module="sqllang" rva="0x150FC" />
+				<frame id="39" address="0x30223D6176722022" />
+			</stackFrames>
+			<executionStack>
+				<frame procname="adhoc" line="1" stmtend="128"
+				sqlhandle="0x0200000081d1c2280096f163721ab12791ef164afc1c809e0000000000000000000000000000000000000000">
+					unknown
+				</frame>
+				<frame procname="adhoc" line="1" stmtend="128"
+				sqlhandle="0x0200000042482f3801c1037b042bb89174f8670d92a1cbeb0000000000000000000000000000000000000000">
+					unknown
+				</frame>
+			</executionStack>
+			<inputbuf>
+				update customers set CustomerID= &apos;BÄR&apos;
+				where customerid = &apos;ALFKI&apos;
+			</inputbuf>
+		</process>
+		<process id="process193dc413088" taskpriority="0" logused="996"
+			waitresource="KEY: 5:72057594046644224 (793389adc214)"
+			waittime="8008" ownerId="569144" transactionname="user_transaction"
+			lasttranstarted="2025-08-14T12:46:49.627" XDES="0x193e9eac470" lockMode="X"
+			schedulerid="4" kpid="6116" status="suspended" spid="62" sbid="0" ecid="0"
+			priority="0" trancount="2" lastbatchstarted="2025-08-14T12:46:55.523"
+			lastbatchcompleted="2025-08-14T12:46:49.627" lastattention="1900-01-01T00:00:00.627"
+			clientapp="Microsoft SQL Server Management Studio - Abfrage"
+			hostname="BIGBEN" hostpid="2896" loginname="BIGBEN\Administrator"
+			isolationlevel="read committed (2)" xactid="569144" currentdb="5"
+			currentdbname="northwind" lockTimeout="4294967295" clientoption1="671090784"
+			clientoption2="390200">
+			<stackFrames>
+				<frame id="00"
+				address="0x7FFA80D83144" pdb="ntdll.pdb" age="1"
+				guid="50957EAA-6C4F-604C-049D-9B968F8FA965" module="ntdll" rva="0xA3144" />
+				<frame id="01" address="0x7FFA7E4A7E89" pdb="kernelbase.pdb" age="1"
+				guid="68EE6591-28C3-1CF6-48FA-175AC1A8601A" module="kernelbase" rva="0xC7E89" />
+				<frame id="02" address="0x7FFA63799A37" pdb="SqlDK.pdb" age="2"
+				guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB" module="SqlDK" rva="0x9A37" />
+				<frame id="03" address="0x7FFA63799951" pdb="SqlDK.pdb" age="2"
+				guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB" module="SqlDK" rva="0x9951" />
+				<frame id="04" address="0x7FFA63791CF7" pdb="SqlDK.pdb" age="2"
+				guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB" module="SqlDK" rva="0x1CF7" />
+				<frame id="05" address="0x7FFA63792D17" pdb="SqlDK.pdb" age="2"
+				guid="EED44ADF-0BF0-4FCE-B63A-58554FD5C7FB" module="SqlDK" rva="0x2D17" />
+				<frame id="06" address="0x7FFA63E3AF55" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0xAAF55" />
+				<frame id="07" address="0x7FFA63E3AD54" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0xAAD54" />
+				<frame id="08" address="0x7FFA63DA0ED4" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x10ED4" />
+				<frame id="09" address="0x7FFA63DA9CB8" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x19CB8" />
+				<frame id="10" address="0x7FFA63DAF068" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x1F068" />
+				<frame id="11" address="0x7FFA63DAA91A" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x1A91A" />
+				<frame id="12" address="0x7FFA63DAA5FF" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x1A5FF" />
+				<frame id="13" address="0x7FFA63DAA6E3" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x1A6E3" />
+				<frame id="14" address="0x7FFA63DBEC59" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x2EC59" />
+				<frame id="15" address="0x7FFA69D319F7" pdb="SqlTsEs.pdb" age="2"
+				guid="BE306769-26D5-47E7-A951-47BA8B31D837" module="SqlTsEs" rva="0x19F7" />
+				<frame id="16" address="0x7FFA63DEEDB1" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x5EDB1" />
+				<frame id="17" address="0x7FFA63DBB579" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x2B579" />
+				<frame id="18" address="0x7FFA63DC52BF" pdb="sqlmin.pdb" age="2"
+				guid="B269EC3D-9707-48C3-9F5A-959CACE5C766" module="sqlmin" rva="0x352BF" />
+				<frame id="19" address="0x7FFA66EEB0B8" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x1B0B8" />
+				<frame id="20" address="0x7FFA66EF9F2C" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x29F2C" />
+				<frame id="21" address="0x7FFA66EF9C8A" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x29C8A" />
+				<frame id="22" address="0x7FFA66EE4BFF" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x14BFF" />
+				<frame id="23" address="0x7FFA6722CC34" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x35CC34" />
+				<frame id="24" address="0x7FFA6722C5E7" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x35C5E7" />
+				<frame id="25" address="0x7FFA66EE4921" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x14921" />
+				<frame id="26" address="0x7FFA6722E5E5" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x35E5E5" />
+				<frame id="27" address="0x7FFA66EE4BFF" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x14BFF" />
+				<frame id="28" address="0x7FFA66EE50FC" pdb="sqllang.pdb" age="2"
+				guid="D3A77B28-89A2-4758-BB4F-8C675F5C32B4" module="sqllang" rva="0x150FC" />
+				<frame id="29" address="0x7020223842433941" />
+				<frame id="30"
+				address="0x6D6C7173223D6264" />
+				<frame id="31" address="0x20226264702E6E69" />
+				<frame id="32" address="0x202232223D656761" />
+				<frame id="33"
+				address="0x3242223D64697567" />
+				<frame id="34" address="0x392D443343453936" />
+				<frame id="35" address="0x334338342D373037" />
+				<frame id="36"
+				address="0x35392D413546392D" />
+				<frame id="37" address="0x3743354543414339" />
+				<frame id="38" address="0x75646F6D20223636" />
+				<frame id="39"
+				address="0x6D6C7173223D656C" />
+			</stackFrames>
+			<executionStack>
+				<frame procname="adhoc" line="1" stmtstart="40" stmtend="146"
+				sqlhandle="0x0200000036bc1c3440e23e8d4c8b0c78f3912ebc7fdab3280000000000000000000000000000000000000000">
+					unknown
+				</frame>
+				<frame procname="adhoc" line="1" stmtstart="2" stmtend="106"
+				sqlhandle="0x02000000958fdc07872e5bfad4f1a1043434335eb373dccb0000000000000000000000000000000000000000">
+					unknown
+				</frame>
+			</executionStack>
+			<inputbuf>
+				update orders set freight = 100 where orderid = 10248
+			</inputbuf>
+		</process>
+	</process-list>
+	<resource-list>
+		<keylock hobtid="72057594046054400" dbid="5" objectname="northwind.dbo.Customers"
+			indexname="PK_Customers" id="lock19412373b00" mode="X" associatedObjectId="72057594046054400">
+			<owner-list>
+				<owner id="process193dc413088" mode="X"/>
+			</owner-list>
+			<waiter-list>
+				<waiter id="process193ee749848" mode="U" requestType="wait"/>
+			</waiter-list>
+		</keylock>
+		<keylock hobtid="72057594046644224" dbid="5" objectname="northwind.dbo.Orders"
+			indexname="PK_Orders" id="lock193e122ec00" mode="X" associatedObjectId="72057594046644224">
+			<owner-list>
+				<owner id="process193ee749848" mode="X"/>
+			</owner-list>
+			<waiter-list>
+				<waiter id="process193dc413088" mode="X" requestType="wait"/>
+			</waiter-list>
+		</keylock>
+	</resource-list>
+</deadlock>
