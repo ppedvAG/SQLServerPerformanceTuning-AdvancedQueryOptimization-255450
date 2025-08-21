@@ -2,15 +2,25 @@
 
 --Funktion .. super praktisch , aber immer zu überdenken
 
---sql server kann ab einer besteitmmten Verion 2017 /2022
+--sql server kann ab einer bestimmten Verion 2017 /2022
 --Funktionen im Hintergrund optimieren.
---verfögerte Kompilierung
+
+--verzögerte Kompilierung
 --F() in UNterabfragen.. ohne die Anwendung selbst zu beeinflussen
 --aber das alles nur in Grenzen
 
 --Daher .. wenn möglich auf F() verzichten oder zumindest regelm
 --auf Performance kontrollieren
 --Plan, Seiten , Dauer etc.
+
+--F() werden auch nicht paralleisiert
+--F() in Where um eine Spalte fürht immer zu einem SCAN
+
+ALTER DATABASE [northwind] SET COMPATIBILITY_LEVEL = 120
+GO
+
+set statistics io, time on
+
 
 create function fbrutto (@par1 int) returns int
 as
@@ -47,12 +57,36 @@ select orderid, dbo.frngsumme(orderid) from orders
 where dbo.frngsumme(orderid) > 10000
 order by orderid
 
+--Crazy Plan und Statistics. Wo ist die Order details
+
+--mit 
+ALTER DATABASE [northwind] SET COMPATIBILITY_LEVEL = 160
+GO
+--Problem vorerst verschwunden
+
 dbcc freeproccache
 alter table orders add RngSumme as dbo.frngsumme(orderid)
 
 select dbo.frngsumme(orderid),* from orders
 where rngsumme > 10000
 
-set statistics io, time on
+--Problem wieder da...
 
-select * from orders
+--F() im where
+
+
+select * from customers where customerid like 'A%'
+
+select * from customers where left(customerid, 1) = 'A'
+
+--zeige alle Ang die jetzt in Rente sind (Rente ab 65 Jahren)
+select * from employees
+--				where datediff(yy, Birthdate,Getdate()) >= 65
+				where  Birthdate <=  dateadd(yy, -65, Getdate())
+--				where 
+
+
+declare @Rententag as datetime
+set  @Rententag =  dateadd(yy, -65, Getdate())
+
+
